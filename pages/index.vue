@@ -2,7 +2,7 @@
   <div class="index">
     <TheBackground />
     <div class="boxes">
-      <!-- <TheLeft /> -->
+      <TheLeft />
       <!-- <TheCenter /> -->
       <!-- <TheRight /> -->
     </div>
@@ -12,7 +12,7 @@
 
 <script>
 import TheBackground from '~/components/TheBackground.vue'
-// import TheLeft from '~/compoennts/TheLeft.vue'
+import TheLeft from '~/components/TheLeft.vue'
 // import TheCenter from '~/components/TheCenter.vue'
 // import TheRight from '~/components/TheRight.vue'
 import TheButton from '~/components/TheButton.vue'
@@ -20,7 +20,7 @@ import TheButton from '~/components/TheButton.vue'
 export default {
   components: {
     TheBackground,
-    // TheLeft,
+    TheLeft,
     // TheCenter,
     // TheRight,
     TheButton
