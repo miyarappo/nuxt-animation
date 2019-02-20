@@ -3,8 +3,8 @@
     <TheBackground />
     <div class="boxes">
       <TheLeft />
-      <!-- <TheCenter /> -->
-      <!-- <TheRight /> -->
+      <TheCenter />
+      <TheRight />
     </div>
     <TheButton />
   </div>
@@ -13,16 +13,16 @@
 <script>
 import TheBackground from '~/components/TheBackground.vue'
 import TheLeft from '~/components/TheLeft.vue'
-// import TheCenter from '~/components/TheCenter.vue'
-// import TheRight from '~/components/TheRight.vue'
+import TheCenter from '~/components/TheCenter.vue'
+import TheRight from '~/components/TheRight.vue'
 import TheButton from '~/components/TheButton.vue'
 
 export default {
   components: {
     TheBackground,
     TheLeft,
-    // TheCenter,
-    // TheRight,
+    TheCenter,
+    TheRight,
     TheButton
   }
 }
